@@ -1,0 +1,23 @@
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #4d148c;
+  
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+ 
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  background-color: #eee;background-image: URL('/assets/images/background1.jpg'); background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }

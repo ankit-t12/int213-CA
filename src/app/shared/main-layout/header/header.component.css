@@ -1,0 +1,11 @@
+.me-lg-auto{
+  margin-left: auto !important;
+}
+.bg-dark{
+  background-color: #220442 !important
+}
+@media (min-width: 992px){
+.me-lg-auto {
+  margin-right: 0px !important;
+}
+}

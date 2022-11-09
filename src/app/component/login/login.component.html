@@ -1,0 +1,60 @@
+<section class="h-100 gradient-form">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-5">
+                <div class="card rounded-3 text-black" style="opacity: 0.9;">
+                    <div class="row g-0">
+                        <div class="col-lg-12">
+                            <div class="card-body p-md-5 mx-md-4">
+
+                                <div class="text-center">
+                                    <img src="/assets/images/logo.png" style="width: 185px;" alt="logo">
+                                </div>
+
+                                <form [formGroup]="loginForm" on-submit="onSubmit()">
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form2Example22">Username</label>
+                                        <input type="text" class="form-control" name="username" id="name-f"
+                                            placeholder="Enter your User name." formControlName="username" required>
+                                        <div *ngIf="(submitted ||getControl.username.touched) && getControl.username.invalid"
+                                            class="text-danger required-field">
+                                            <div *ngIf="getControl.username.errors.required">
+                                                Please Enter Your User Name
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label" for="form2Example22">Password</label>
+                                        <input type="password" class="form-control" name="password" id="name-l"
+                                            placeholder="Enter your password." formControlName="password" required>
+
+                                        <div *ngIf="(submitted ||getControl.password.touched) && getControl.password.invalid"
+                                            class="text-danger required-field">
+                                            <div *ngIf="getControl.password.errors.required">
+                                                Please Enter Your Password
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="text-center pt-4 mb-5 pb-1">
+                                        <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="width:100%"
+                                            type="submit">Log
+                                            in</button>
+
+                                    </div>
+
+
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

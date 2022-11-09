@@ -1,0 +1,105 @@
+label {
+  font-weight: 600;
+  color: #555;
+}
+
+/* body {
+  background: rgb(255, 153, 0);
+} */
+
+form .gender__details .gender__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .gender__details .category {
+  display: flex;
+  width: 80%;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+.p-3{
+  margin-top:-65px;
+}
+
+.gender__details .category label {
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.gender__details .category .dot {
+  height: 18px;
+  width: 18px;
+  background: var(--sub-black);
+  border-radius: 50%;
+  margin: 10px;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+  margin-right: -12px;
+}
+.gender__details .category .dott {
+  height: 18px;
+  width: 18px;
+  background: var(--sub-black);
+  border-radius: 50%;
+  margin: 10px;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+.gender__details .category .dottt {
+  height: 18px;
+  width: 18px;
+  background: var(--sub-black);
+  border-radius: 50%;
+  margin: 10px;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#dot-1:checked~.category .one,
+#dot-2:checked~.category .two,
+#dot-3:checked~.category .three {
+  border-color: var(--sub-white);
+  background: var(--main-red);
+}
+
+form input[type="radio"] {
+  display: none;
+}
+
+label {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.btn-primary {
+  /* fallback for old browsers */
+  background: #1e0538;
+  
+}
+
+input[type="checkbox"] {
+  /* background-color: #002B4E !important; */
+  color: white;
+}
+
+input[type="checkbox"]:enabled:checked {
+  background-color: #002B4E !important;
+  color: white;
+}
+
+input[type="checkbox"]:before {
+  /* background-color: #002B4E !important; */
+  color: white;
+}
+
+input[type="checkbox"]::before {
+  /* background-color: #002B4E !important; */
+  color: white;
+}
+
+.dark-checkbox input[type="checkbox"]:checked {
+  background-color: #002B4E !important;
+  color: white;
+}

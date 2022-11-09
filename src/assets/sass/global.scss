@@ -1,0 +1,84 @@
+$light:#ffffff;
+$dark-bg:#000000;
+
+.dark{
+  background-color: $dark-bg !important;
+  color: $light !important;
+
+  .card{
+   background-color: $dark-bg !important;
+   color: $light !important;
+   }
+
+  .medium-card {
+      background-color: $dark-bg !important;
+      color: $light !important;
+    }  
+    
+  .global-card {
+    background-color: $dark-bg !important;
+    color: $light !important;
+  }
+
+  .list-group-item {
+      background-color: $dark-bg !important;
+      color: $light !important;
+    }
+
+  .btn{
+      color: $light !important;
+    }  
+
+  .custom-navbar-style {
+      color: $light !important;
+      background-color: $dark-bg !important;
+    }  
+
+  .top-header {
+      background-color: $dark-bg !important;
+    }
+
+  .sidebar {
+      background-color: $dark-bg !important;
+    }
+
+  .nav-icon {
+        border-bottom: none !important;
+        color: $light !important;
+    }
+
+  .view-container {
+      color: $light !important;
+      background-color: $dark-bg !important;
+    }
+  
+  .main-container {
+      color: $light !important;
+      background-color: $dark-bg !important;
+    }
+
+  .light {
+      background-color: $dark-bg;
+      color: $light;  
+    }
+    
+  .container-scroller {
+        background-color: $dark-bg;
+        color: $light;
+    }
+    .medium-heading , .para-title , .para-main-head , .para-body , .para-msg ,.form-label , .badge-heading , .para-medium ,.primary-title 
+    ,.form-title ,.form-label
+    {
+      color: $light !important;
+    }
+    
+    .btn-icons{
+      color: $light !important;
+    }
+
+
+.silent-tab {
+  background-color: $dark-bg;
+}
+     
+}
